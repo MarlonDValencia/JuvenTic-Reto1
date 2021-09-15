@@ -1,0 +1,144 @@
+/*--------------------------------------------------------------
+# Sección de inicio
+--------------------------------------------------------------*/
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-caption h1 {
+  font-family: "Dancing Script", cursive;
+  color: rgb(245, 205, 157);
+}
+
+.carousel-caption p {
+  color: floralwhite;
+}
+
+#inicio img {
+  opacity: 0.8;
+}
+
+/*--------------------------------------------------------------
+# Sección de nosotros
+--------------------------------------------------------------*/
+/* #nosotros {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.609),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/chefs-bg.jpg");
+} */
+
+#imagen .content {
+  padding: 90px 0;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#imagen img {
+  padding: 20px 0;
+}
+
+#imagen h3 {
+  font-family: "Dancing Script", cursive;
+}
+
+#nosotros i {
+  color: #ffb03b;
+}
+
+/*--------------------------------------------------------------
+# Sección de menu
+--------------------------------------------------------------*/
+#menu {
+  padding: 120px 0 80px 0;
+}
+
+#menu .section-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#menu h2 {
+  font-family: "Dancing Script", cursive;
+}
+
+#menu h2,
+h6 {
+  color: #000;
+}
+
+#menu span,
+h5 {
+  color: #ffb03b;
+}
+
+#menu p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #8b8b8a;
+}
+
+#menu h5 p {
+  padding-left: 10px;
+  float: left;
+}
+
+#menu h6 {
+  float: right;
+}
+
+/*--------------------------------------------------------------
+# Destacados
+--------------------------------------------------------------*/
+#destacados {
+  padding: 20px 0 80px 0;
+}
+
+#destacados h2,
+h3 {
+  font-family: "Dancing Script", cursive;
+}
+
+#destacados .section-title {
+  text-align: center;
+}
+
+#destacados h2 {
+  color: #000;
+}
+
+#destacados span {
+  color: #ffb03b;
+}
+
+.nav-pills {
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-pills > li > a {
+  color: #000;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #ffb03b;
+  background-color: #fff;
+}
+
+.nav-pills > li > a:hover {
+  border: medium none;
+  border-radius: 0;
+  color: #ffb03b;
+}
+
+.special1 .special2 .special3 .special4 .special5 {
+  margin-bottom: 10px;
+}
