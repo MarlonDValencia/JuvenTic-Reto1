@@ -36,14 +36,15 @@ header .bx {
 /*--------------------------------------------------------------
 # Sección de nosotros
 --------------------------------------------------------------*/
-#imagen .content {
-  padding: 90px 0;
-  margin-left: 12px;
-  margin-right: 12px;
+#imagen {
+  padding: 40px 0 0;
+  justify-content: center;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
-#imagen img {
-  padding: 20px 0;
+#imagen .imagen-about {
+  padding-bottom: 10px;
 }
 
 #imagen h3 {
@@ -56,6 +57,24 @@ header .bx {
 
 #nosotros i {
   color: #ffb03b;
+}
+
+#nosotros .btn-menu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#nosotros .btn-outline-warning {
+  color: #000;
+  background-color: transparent;
+  border-color: #0c0900;
+}
+
+#nosotros .btn-outline-warning:hover {
+  color: #fff;
+  background-color: #ffb03b;
+  border-color: #ffbf3b;
 }
 
 /*--------------------------------------------------------------
@@ -101,18 +120,41 @@ h5 {
 /*--------------------------------------------------------------
 # Destacados
 --------------------------------------------------------------*/
-#destacados {
-  padding: 100px 0 80px 0;
-}
-
 #destacados h2,
 h3 {
   font-family: "Dancing Script", cursive;
 }
 
 #destacados .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 18px;
   text-align: center;
+}
+
+#destacados .btn-menu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#destacados .btn-outline-warning {
+  color: #000;
+  background-color: transparent;
+  border-color: #0c0900;
+}
+
+#destacados .details {
+  padding-top: 30px;
+  text-align: justify;
+}
+
+#destacados h3 {
+  text-align: center;
+}
+
+#destacados .btn-outline-warning:hover {
+  color: #fff;
+  background-color: #ffb03b;
+  border-color: #ffbf3b;
 }
 
 #destacados h2 {
@@ -121,6 +163,11 @@ h3 {
 
 #destacados span {
   color: #ffb03b;
+}
+
+#destacados .nav-pills {
+  text-align: right;
+  padding-top: 30px;
 }
 
 .nav-pills {
@@ -144,7 +191,7 @@ h3 {
   color: #ffb03b;
 }
 
-.special1 .special2 .special3 .special4 .special5 {
+.special1 .special2 .special3 .special4 .special5 .special6 {
   margin-bottom: 10px;
 }
 
@@ -213,39 +260,43 @@ h3 {
 # Sección de eventos
 --------------------------------------------------------------*/
 #eventos {
-  padding: 100px 0 40px 0;
+  padding-top: 20px;
+}
+
+#eventos h2,
+h3 {
+  font-family: "Dancing Script", cursive;
+}
+
+#eventos .section-title {
+  padding-bottom: 60px;
   text-align: center;
-  background-image: linear-gradient(rgba(8, 8, 8, 0.609), rgba(77, 77, 77, 0.5)),
-    url("../images/events-bg.jpg");
 }
 
-#eventos .section-title span {
+#eventos .btn-menu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+#eventos .btn-outline-warning {
+  color: #000;
+  background-color: transparent;
+  border-color: #0c0900;
+}
+
+#eventos .btn-outline-warning:hover {
   color: #fff;
-}
-
-#eventos img {
-  padding: 40px 0 40px;
+  background-color: #ffb03b;
+  border-color: #ffbf3b;
 }
 
 #eventos h2 {
-  font-family: "Dancing Script", cursive;
-  color: #ffb03b;
+  color: #000;
 }
 
-#eventos .carousel-item h2 {
-  font-family: "Dancing Script", cursive;
+#eventos span {
   color: #ffb03b;
-}
-
-#eventos i {
-  color: #ffb03b;
-}
-
-#eventos p,
-ul,
-span {
-  text-align: justify;
-  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -337,4 +388,16 @@ h3 {
 #galeria h1 {
   font-family: "Dancing Script", cursive;
   color: #070707;
+}
+
+#footer {
+  padding-top: 10px;
+  background-color: #0c0b0b;
+  color: #ffff;
+  text-align: center;
+}
+
+#footer i {
+  font-size: 20px;
+  color: #ffbf3b;
 }
